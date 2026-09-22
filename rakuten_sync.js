@@ -6,27 +6,31 @@
  *   2. RAKUTEN_ACCESS_KEY   … 楽天ウェブサービスのアクセスキー(2026年新仕様で必須)
  *   3. RAKUTEN_AFFILIATE_ID … 楽天アフィリエイトID
  *
- * 必要なライブラリ: npm install sharp
+ * 必要なライブラリ: npm install sharp undici
  */
 
 const sharp = require('sharp');
 const fs = require('fs');
+const { request: undiciRequest } = require('undici');
 
 const OUTPUT_PATH = 'products.json';
 
 const APP_ID = process.env.RAKUTEN_APP_ID;
 const ACCESS_KEY = process.env.RAKUTEN_ACCESS_KEY;
 const AFFILIATE_ID = process.env.RAKUTEN_AFFILIATE_ID;
+const SITE_ORIGIN = process.env.RAKUTEN_SITE_ORIGIN || 'https://nailpita.github.io';
 
 const SEARCH_KEYWORDS = [
   { keyword: 'ジェルカラー', category: 'color' },
+  { keyword: 'ジェルポリッシュ', category: 'color' },
+  { keyword: 'ポリッシュジェル', category: 'color' },
   { keyword: 'ジェルネイル パーツ', category: 'parts' },
   { keyword: 'ネイルストーン', category: 'parts' },
 ];
 
 // --- ① 楽天商品検索APIから商品を取得(新エンドポイント+アクセスキー対応) ---
 async function fetchRakutenProducts(keyword, page = 1) {
-  const url = new URL('https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20220601');
+  const url = new URL('https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701');
   url.searchParams.set('applicationId', APP_ID);
   url.searchParams.set('accessKey', ACCESS_KEY);
   url.searchParams.set('affiliateId', AFFILIATE_ID);
@@ -36,14 +40,30 @@ async function fetchRakutenProducts(keyword, page = 1) {
   url.searchParams.set('sort', '-updateTimestamp');
   url.searchParams.set('format', 'json');
 
-  const res = await fetch(url.toString());
-  if (!res.ok) {
-    throw new Error(`楽天API呼び出し失敗: ${res.status} ${await res.text()}`);
+  const { statusCode, body } = await undiciRequest(url.toString(), {
+    method: 'GET',
+    headers: {
+      'User-Agent': 'nailpita/1.0',
+      Origin: SITE_ORIGIN,
+      Referer: SITE_ORIGIN,
+      accessKey: ACCESS_KEY,
+    },
+  });
+
+  const rawText = await body.text();
+
+  let data;
+  try {
+    data = JSON.parse(rawText);
+  } catch {
+    throw new Error(`JSONとして解析できない応答(HTTP ${statusCode}): ${rawText.slice(0, 200)}`);
   }
-  const data = await res.json();
-  if (data.errors) {
-    throw new Error(`楽天APIエラー: ${JSON.stringify(data.errors)}`);
+
+  if (statusCode < 200 || statusCode >= 300) {
+    const msg = data.errorMessage || (data.errors && JSON.stringify(data.errors)) || rawText.slice(0, 200);
+    throw new Error(`楽天APIエラー(HTTP ${statusCode}): ${msg}`);
   }
+
   return (data.Items || []).map(({ Item }) => ({
     productId: Item.itemCode,
     name: Item.itemName,
