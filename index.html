@@ -134,6 +134,25 @@ section{margin-top:52px;}
 .color-chip .dot{width:44px; height:44px; border-radius:50%; margin:0 auto 6px; border:1px solid rgba(0,0,0,.06);}
 .color-chip .lbl{font-size:10px; color:var(--muted);}
 
+.color-grid-live{display:grid; grid-template-columns:repeat(2,1fr); gap:10px; margin-top:16px;}
+.color-grid-live .loading{grid-column:1/-1; text-align:center; font-size:12px; color:var(--muted);}
+.pcard{
+  background:#fff; border:1px solid var(--rose-100); border-radius:14px; overflow:hidden;
+  text-decoration:none; color:var(--ink); display:block;
+}
+.pcard .swatch{width:100%; height:64px;}
+.pcard .body{padding:10px 12px;}
+.pcard .name{font-size:11px; line-height:1.5; color:var(--ink); display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+.pcard .price{font-size:12px; font-weight:700; color:var(--rose-800); margin-top:6px;}
+
+.pill-row{display:flex; gap:8px; flex-wrap:wrap; justify-content:center; margin-top:16px;}
+.pill{
+  font-size:12px; font-weight:700; text-decoration:none; color:var(--rose-800);
+  background:#fff; border:1px solid var(--rose-400); border-radius:20px;
+  padding:9px 16px;
+}
+.pill:active{background:var(--rose-50);}
+
 .closing{
   margin-top:56px; background:var(--rose-900); color:#fff; border-radius:20px;
   padding:32px 24px; text-align:center;
@@ -155,8 +174,8 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
 <div class="wrap">
 
   <section class="hero">
-    <p class="eyebrow">職場でネイルがバレたくない、あなたへ</p>
-    <h1>会社にいる間は、<br><em>気づかれない</em>くらいでいい。</h1>
+    <p class="eyebrow">職場でネイルしているってバレたくない、あなたへ</p>
+    <h1>会社にいる間は、<br><em>なんか指先キレイ</em>くらいでいい。</h1>
     <p class="lead">
       ジェルネイルはしたい。でも堅い職場だから、目立つのは避けたい。<br>
       そんな方のための、剥がせる・自然に見える・自分だけで完結する<br>
@@ -170,8 +189,8 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
 
   <section id="worry">
     <div class="section-head">
-      <p class="eyebrow">こんなお悩み、ありませんか?</p>
-      <h2>指先のおしゃれは諦めたくない。<br>でも、悪目立ちもしたくない。</h2>
+      <p class="eyebrow">こんなネイルのお悩み、ありませんか?</p>
+      <h2>指先のおしゃれは諦めたくない。<br>でも、会社で悪目立ちもしたくない。</h2>
     </div>
     <div class="check-card">
       <div class="check-item">
@@ -184,40 +203,40 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
       </div>
       <div class="check-item">
         <svg width="18" height="18" viewBox="0 0 18 18"><circle cx="9" cy="9" r="8" fill="none" stroke="#A97D82" stroke-width="1.6"/><path d="M5.5 9.2l2.2 2.2 4.8-5" fill="none" stroke="#A97D82" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <span>急な出社日・面接・来客対応の前に、さっとネイルをはずしたい</span>
+        <span>1本だけジェルネイルが取れてしまい、さっとはずしたい</span>
       </div>
       <div class="check-item">
         <svg width="18" height="18" viewBox="0 0 18 18"><circle cx="9" cy="9" r="8" fill="none" stroke="#A97D82" stroke-width="1.6"/><path d="M5.5 9.2l2.2 2.2 4.8-5" fill="none" stroke="#A97D82" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <span>自己流でやって失敗した経験がある、不器用だけどみたい</span>
+        <span>不器用だけどセルフジェルにチャレンジしてみたい</span>
       </div>
     </div>
   </section>
 
   <section id="why">
     <div class="section-head">
-      <p class="eyebrow">だから、ピールオフジェル</p>
-      <h2>「剥がせるネイル」は、<br>バレたくない人の最強の武器</h2>
+      <p class="eyebrow">だから、簡単にピールオフジェル</p>
+      <h2>「剥がせる」は、<br>バレたくない人の最強の武器</h2>
     </div>
     <div class="reason-grid">
       <div class="reason-card">
         <div class="num">01</div>
         <div>
-          <h3>自分で、その日のうちに簡単にはずせる</h3>
-          <p>アセトンを使う本格的なジェルオフと違い、端から優しく剥がすだけ。「明日は大事な会議」という日の前夜でも安心です。</p>
+          <h3>自分で、その日のうちにネイルがさっとはずせる</h3>
+          <p>アセトンを使う本格オフと違い、端から優しく剥がすだけで忙しい日でも簡単にネイルがチェンジできます</p>
         </div>
       </div>
       <div class="reason-card">
         <div class="num">02</div>
         <div>
-          <h3>作り込みすぎない、自然な仕上がり</h3>
-          <p>薄く整えたジェルは、サロン帰りのような「いかにも」感が出にくく、ナチュラルカラーを選べば指先が美しく見えます。</p>
+          <h3>作り込みすぎない、自然な仕上がりのジェルネイル</h3>
+          <p>薄く整えたジェルは、サロン帰りのような「いかにも」感が出にくく、ナチュラルカラーを選べば指先が明るくキレイに見えます</p>
         </div>
       </div>
       <div class="reason-card">
         <div class="num">03</div>
         <div>
-          <h3>匂いも道具も最小限</h3>
-          <p>除去にリムーバー液を使わないので、爪や皮膚への負担も気にする必要がありません。道具も少なく、始めるハードルが低いのも魅力です。</p>
+          <h3>手指に優しい</h3>
+          <p>除去にリムーバー液を使わないので、爪や指先にも優しく続けやすいです</p>
         </div>
       </div>
     </div>
@@ -226,7 +245,7 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
   <section id="tools">
     <div class="section-head">
       <p class="eyebrow">まずは道具から</p>
-      <h2>少ない道具で、<br>まずは1〜2週間もつジェルネイルにチャレンジしませんか？</h2>
+      <h2>少ない道具で、<br>まずは1〜2週間持つようなジェルネイルにチャレンジしませんか？</h2>
       <p>いきなり全部揃えなくて大丈夫。まずはこの3点から。</p>
     </div>
     <div class="tool-grid">
@@ -367,14 +386,77 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
     </p>
   </section>
 
+  <!-- もっとカラーを探す(products.json連携) -->
+  <section id="more-colors">
+    <div class="section-head">
+      <p class="eyebrow">色をもっと探す</p>
+      <h2>気に入る色が<br>見つからないときは</h2>
+      <p>毎日自動更新される楽天の最新ジェルカラーから、いくつかピックアップしています。</p>
+    </div>
+
+    <div id="colorGrid" class="color-grid-live">
+      <p class="loading">読み込み中…</p>
+    </div>
+
+    <p class="section-head" style="margin-top:26px; margin-bottom:0;">
+      <span style="font-size:12px; color:var(--muted);">もっと自分でキーワード検索したい方はこちら</span>
+    </p>
+    <div class="pill-row">
+      <a class="pill" href="https://search.rakuten.co.jp/search/mall/%E3%82%B8%E3%82%A7%E3%83%AB%E3%83%9D%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5/" target="_blank" rel="nofollow noopener">ジェルポリッシュ</a>
+      <a class="pill" href="https://search.rakuten.co.jp/search/mall/%E3%83%9D%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B8%E3%82%A7%E3%83%AB/" target="_blank" rel="nofollow noopener">ポリッシュジェル</a>
+      <a class="pill" href="https://search.rakuten.co.jp/search/mall/%E3%82%B8%E3%82%A7%E3%83%AB%E3%83%9D%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5%20%E3%83%8C%E3%83%BC%E3%83%87%E3%82%A3/" target="_blank" rel="nofollow noopener">ヌーディカラー</a>
+      <a class="pill" href="https://search.rakuten.co.jp/search/mall/%E3%82%B8%E3%82%A7%E3%83%AB%E3%83%9D%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5%20%E3%82%B7%E3%82%A2%E3%83%BC/" target="_blank" rel="nofollow noopener">シアーカラー</a>
+      <a class="pill" href="https://search.rakuten.co.jp/search/mall/%E3%82%B8%E3%82%A7%E3%83%AB%E3%83%9D%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5%20%E3%83%9F%E3%83%AB%E3%82%AD%E3%83%BC/" target="_blank" rel="nofollow noopener">ミルキーカラー</a>
+    </div>
+  </section>
+
   <section class="closing">
-    <h2>今日から、こっそり楽しむセルフネイル。</h2>
+    <h2>今日から、こっそりネイルを楽しむ。</h2>
     <p>道具は少なく、色は控えめに。<br>それでも、鏡の前で自分だけが知っている変化があります。</p>
     <a class="btn primary" href="#tools">道具を見る</a>
   </section>
 
   <footer class="site">&copy; ネイルピタ</footer>
 </div>
+
+<script>
+(async function loadColorProducts(){
+  const grid = document.getElementById('colorGrid');
+  try {
+    const res = await fetch('./products.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('products.json not found');
+    const all = await res.json();
+
+    const colorItems = all
+      .filter(p => p.category === 'color' && p.hexColor)
+      .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
+      .slice(0, 8);
+
+    if (colorItems.length === 0) {
+      grid.innerHTML = '<p class="loading">現在、表示できる商品がありません</p>';
+      return;
+    }
+
+    grid.innerHTML = colorItems.map(p => `
+      <a class="pcard" href="${p.affiliateUrl}" target="_blank" rel="nofollow sponsored noopener">
+        <div class="swatch" style="background:${p.hexColor};"></div>
+        <div class="body">
+          <div class="name">${escapeHtml(p.name)}</div>
+          <div class="price">¥${Number(p.price).toLocaleString()}</div>
+        </div>
+      </a>
+    `).join('');
+  } catch (e) {
+    grid.innerHTML = '<p class="loading">ただいま準備中です。下のキーワード検索からどうぞ</p>';
+  }
+
+  function escapeHtml(str){
+    return String(str).replace(/[&<>"']/g, s => ({
+      '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+    }[s]));
+  }
+})();
+</script>
 
 </body>
 </html>
