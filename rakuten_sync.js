@@ -8,10 +8,10 @@
  * 実行イメージ:
  *   RAKUTEN_APP_ID=xxx RAKUTEN_AFFILIATE_ID=yyy node rakuten_sync.js
  *
- * 必要なライブラリ: npm install node-fetch sharp
+ * 必要なライブラリ: npm install sharp
+ * ※fetchはNode.js 20標準機能を使うため、node-fetchのインストールは不要です
  */
 
-const fetch = require('node-fetch');
 const sharp = require('sharp');
 const fs = require('fs');
 
@@ -32,11 +32,11 @@ const SEARCH_KEYWORDS = [
 async function fetchRakutenProducts(keyword, page = 1) {
   const url = new URL('https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601');
   url.searchParams.set('applicationId', APP_ID);
-  url.searchParams.set('affiliateId', AFFILIATE_ID); // これを付けると商品URLに自動でアフィリエイトIDが反映される
+  url.searchParams.set('affiliateId', AFFILIATE_ID);
   url.searchParams.set('keyword', keyword);
   url.searchParams.set('page', String(page));
   url.searchParams.set('hits', '30');
-  url.searchParams.set('sort', '-updateTimestamp'); // 新着・更新順(トレンド反映)
+  url.searchParams.set('sort', '-updateTimestamp');
 
   const res = await fetch(url.toString());
   if (!res.ok) {
@@ -48,17 +48,16 @@ async function fetchRakutenProducts(keyword, page = 1) {
     name: Item.itemName,
     price: Item.itemPrice,
     imageUrl: (Item.mediumImageUrls?.[0]?.imageUrl || '').replace('?_ex=128x128', ''),
-    affiliateUrl: Item.affiliateUrl || Item.itemUrl, // affiliateIdを渡していればここに反映済みのリンクが入る
+    affiliateUrl: Item.affiliateUrl || Item.itemUrl,
     aspSource: '楽天',
   }));
 }
 
-// --- ② 商品画像から代表色を自動抽出(Lab値の簡易版としてRGBを保存) ---
+// --- ② 商品画像から代表色を自動抽出 ---
 async function extractDominantColor(imageUrl) {
   const res = await fetch(imageUrl);
   const buffer = Buffer.from(await res.arrayBuffer());
 
-  // 60x60にリサイズしてから平均色を計算(処理を軽くするため)
   const { data, info } = await sharp(buffer)
     .resize(60, 60, { fit: 'cover' })
     .removeAlpha()
@@ -80,7 +79,7 @@ async function extractDominantColor(imageUrl) {
   return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
 }
 
-// --- ③ シーン・テーマの簡易タグ付け(ルールベース、第一段階) ---
+// --- ③ シーン・テーマの簡易タグ付け ---
 function assignSceneTags(name) {
   const tags = [];
   if (/シンプル|オフィス|ワンカラー/.test(name)) tags.push('オフィス・シンプル');
@@ -89,9 +88,7 @@ function assignSceneTags(name) {
   return tags;
 }
 
-// --- ④ 商品データの保存
-// 本格的なDBを用意するまでの間は、リポジトリ内のproducts.jsonに書き出す方式にしている。
-// (GitHub Actionsでこのファイルを自動コミットすれば、簡易的な「商品DB」として機能する)
+// --- ④ 商品データの保存 ---
 function loadExistingProducts() {
   if (fs.existsSync(OUTPUT_PATH)) {
     try {
@@ -114,7 +111,6 @@ async function runBatch() {
     return;
   }
 
-  // 既存データをproductIdでMap化(同じ商品は上書き更新、新商品は追加)
   const existing = loadExistingProducts();
   const productMap = new Map(existing.map((p) => [p.productId, p]));
 
@@ -131,8 +127,8 @@ async function runBatch() {
           ...item,
           hexColor,
           sceneTags,
-          sourceKeyword: keyword,   // どのキーワードで見つかったか(絞り込み用)
-          category,                 // 'color' または 'parts'(フロント側での表示切り替え用)
+          sourceKeyword: keyword,
+          category,
           updatedAt: new Date().toISOString(),
         });
       } catch (err) {
