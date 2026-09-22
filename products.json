@@ -2612,18 +2612,11 @@
     "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/petitprice/cabinet/goods08/fff10000256_pp.jpg",
     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00quabo.4emtbcc5.g00quabo.4emtcb0b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpetitprice%2F10000256%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpetitprice%2Fi%2F10000256%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
     "aspSource": "楽天",
-    "reviewCount": 867,
-    "reviewAverage": 3.75,
-    "hexColor": "#7b8e8e",
-    "colorFamily": "グレー",
+    "hexColor": "#b4b8b8",
     "sceneTags": [],
-    "finishTypes": [
-      "クリア"
-    ],
-    "quantity": null,
-    "isColorProduct": false,
-    "isPartsProduct": true,
-    "updatedAt": "2026-09-21T21:12:00.902Z"
+    "sourceKeyword": "ジェルネイル パーツ",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:44.681Z"
   },
   {
     "productId": "fiorello:10026139",
@@ -17615,7 +17608,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルカラー",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:47.595Z"
+    "updatedAt": "2026-09-22T21:10:28.196Z"
   },
   {
     "productId": "scintitur:10009096",
@@ -17628,7 +17621,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルカラー",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:48.235Z"
+    "updatedAt": "2026-09-22T21:10:28.321Z"
   },
   {
     "productId": "scintitur:11120306",
@@ -17641,7 +17634,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルカラー",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:48.426Z"
+    "updatedAt": "2026-09-22T21:10:28.456Z"
   },
   {
     "productId": "scintitur:10900428",
@@ -17654,7 +17647,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルカラー",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:49.022Z"
+    "updatedAt": "2026-09-22T21:10:28.925Z"
   },
   {
     "productId": "queeneyes:10000286",
@@ -17680,7 +17673,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルカラー",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:49.387Z"
+    "updatedAt": "2026-09-22T21:10:29.308Z"
   },
   {
     "productId": "scintitur:11454944",
@@ -17693,7 +17686,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルカラー",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:49.607Z"
+    "updatedAt": "2026-09-22T21:10:29.462Z"
   },
   {
     "productId": "scintitur:11454748",
@@ -17706,7 +17699,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルカラー",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:49.797Z"
+    "updatedAt": "2026-09-22T21:10:29.051Z"
   },
   {
     "productId": "scintitur:11454866",
@@ -17719,7 +17712,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルカラー",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:49.956Z"
+    "updatedAt": "2026-09-22T21:10:29.185Z"
   },
   {
     "productId": "neo-neo:10003292",
@@ -17745,7 +17738,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルカラー",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:50.615Z"
+    "updatedAt": "2026-09-22T21:10:30.124Z"
   },
   {
     "productId": "scintitur:11121686",
@@ -17940,7 +17933,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルポリッシュ",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:57.345Z"
+    "updatedAt": "2026-09-22T21:10:33.673Z"
   },
   {
     "productId": "petitprice:10006249",
@@ -17979,7 +17972,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルポリッシュ",
     "category": "color",
-    "updatedAt": "2026-09-22T13:00:57.824Z"
+    "updatedAt": "2026-09-22T21:10:34.244Z"
   },
   {
     "productId": "sallierjapan:10081240",
@@ -18334,7 +18327,7 @@
     "sceneTags": [],
     "sourceKeyword": "ポリッシュジェル",
     "category": "color",
-    "updatedAt": "2026-09-22T13:01:05.718Z"
+    "updatedAt": "2026-09-22T21:10:38.840Z"
   },
   {
     "productId": "rednails:10132060",
@@ -18347,7 +18340,7 @@
     "sceneTags": [],
     "sourceKeyword": "ポリッシュジェル",
     "category": "color",
-    "updatedAt": "2026-09-22T13:01:05.903Z"
+    "updatedAt": "2026-09-22T21:10:38.953Z"
   },
   {
     "productId": "rednails:10132016",
@@ -18682,7 +18675,7 @@
     "sceneTags": [],
     "sourceKeyword": "ポリッシュジェル",
     "category": "color",
-    "updatedAt": "2026-09-22T13:01:11.114Z"
+    "updatedAt": "2026-09-22T21:10:39.069Z"
   },
   {
     "productId": "rednails:10149944",
@@ -18695,7 +18688,7 @@
     "sceneTags": [],
     "sourceKeyword": "ポリッシュジェル",
     "category": "color",
-    "updatedAt": "2026-09-22T13:01:11.312Z"
+    "updatedAt": "2026-09-22T21:10:39.201Z"
   },
   {
     "productId": "rednails:10154303",
@@ -18708,7 +18701,7 @@
     "sceneTags": [],
     "sourceKeyword": "ポリッシュジェル",
     "category": "color",
-    "updatedAt": "2026-09-22T13:01:11.469Z"
+    "updatedAt": "2026-09-22T21:10:39.322Z"
   },
   {
     "productId": "backyard:10025794",
@@ -18721,7 +18714,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルネイル パーツ",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:12.602Z"
+    "updatedAt": "2026-09-22T21:10:44.566Z"
   },
   {
     "productId": "tsjahop:10016499",
@@ -18762,7 +18755,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.305Z"
+    "updatedAt": "2026-09-22T21:10:50.538Z"
   },
   {
     "productId": "chumchum-32:10005011",
@@ -18777,7 +18770,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.313Z"
+    "updatedAt": "2026-09-22T21:10:50.524Z"
   },
   {
     "productId": "chumchum-32:10005008",
@@ -18792,7 +18785,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.332Z"
+    "updatedAt": "2026-09-22T21:10:50.564Z"
   },
   {
     "productId": "chumchum-32:10005007",
@@ -18807,7 +18800,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.340Z"
+    "updatedAt": "2026-09-22T21:10:50.581Z"
   },
   {
     "productId": "chumchum-32:10005005",
@@ -18822,7 +18815,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.355Z"
+    "updatedAt": "2026-09-22T21:10:50.782Z"
   },
   {
     "productId": "chumchum-32:10005000",
@@ -18837,7 +18830,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.363Z"
+    "updatedAt": "2026-09-22T21:10:50.595Z"
   },
   {
     "productId": "chumchum-32:10005001",
@@ -18852,7 +18845,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.368Z"
+    "updatedAt": "2026-09-22T21:10:50.607Z"
   },
   {
     "productId": "chumchum-32:10004999",
@@ -18867,7 +18860,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.377Z"
+    "updatedAt": "2026-09-22T21:10:50.637Z"
   },
   {
     "productId": "chumchum-32:10004997",
@@ -18882,7 +18875,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.382Z"
+    "updatedAt": "2026-09-22T21:10:50.620Z"
   },
   {
     "productId": "chumchum-32:10003976",
@@ -18897,7 +18890,7 @@
     ],
     "sourceKeyword": "ジェルネイル パーツ",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:16.509Z"
+    "updatedAt": "2026-09-22T21:10:47.683Z"
   },
   {
     "productId": "chumchum-32:10004994",
@@ -18912,7 +18905,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.390Z"
+    "updatedAt": "2026-09-22T21:10:50.652Z"
   },
   {
     "productId": "chumchum-32:10005002",
@@ -18927,7 +18920,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.402Z"
+    "updatedAt": "2026-09-22T21:10:50.708Z"
   },
   {
     "productId": "chumchum-32:10004985",
@@ -18942,7 +18935,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.417Z"
+    "updatedAt": "2026-09-22T21:10:50.670Z"
   },
   {
     "productId": "chumchum-32:10004981",
@@ -18957,7 +18950,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.435Z"
+    "updatedAt": "2026-09-22T21:10:50.823Z"
   },
   {
     "productId": "chumchum-32:10004982",
@@ -18972,7 +18965,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.456Z"
+    "updatedAt": "2026-09-22T21:10:50.745Z"
   },
   {
     "productId": "chumchum-32:10004987",
@@ -18981,13 +18974,13 @@
     "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/chumchum-32/cabinet/m-1/m0048.jpg",
     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tkt4o.4emtb493.g00tkt4o.4emtc34e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchumchum-32%2Fm0048%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fchumchum-32%2Fi%2F10004987%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
     "aspSource": "楽天",
-    "hexColor": "#e9f1f7",
+    "hexColor": "#eaf2f8",
     "sceneTags": [
       "ロングネイル・ラグジュアリー"
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.462Z"
+    "updatedAt": "2026-09-22T21:10:50.759Z"
   },
   {
     "productId": "chumchum-32:10004992",
@@ -19002,7 +18995,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.469Z"
+    "updatedAt": "2026-09-22T21:10:50.722Z"
   },
   {
     "productId": "chumchum-32:10004986",
@@ -19017,7 +19010,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.476Z"
+    "updatedAt": "2026-09-22T21:10:50.836Z"
   },
   {
     "productId": "chumchum-32:10003719",
@@ -19030,7 +19023,7 @@
     "sceneTags": [],
     "sourceKeyword": "ジェルネイル パーツ",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:19.731Z"
+    "updatedAt": "2026-09-22T21:10:48.669Z"
   },
   {
     "productId": "chumchum-32:10004984",
@@ -19045,7 +19038,7 @@
     ],
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:26.495Z"
+    "updatedAt": "2026-09-22T21:10:50.860Z"
   },
   {
     "productId": "chumchum-32:10004988",
@@ -19058,9 +19051,9 @@
     "sceneTags": [
       "ロングネイル・ラグジュアリー"
     ],
-    "sourceKeyword": "ジェルネイル パーツ",
+    "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:20.083Z"
+    "updatedAt": "2026-09-22T21:10:50.795Z"
   },
   {
     "productId": "chumchum-32:10004995",
@@ -19073,9 +19066,9 @@
     "sceneTags": [
       "ロングネイル・ラグジュアリー"
     ],
-    "sourceKeyword": "ジェルネイル パーツ",
+    "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:20.244Z"
+    "updatedAt": "2026-09-22T21:10:50.879Z"
   },
   {
     "productId": "chumchum-32:10004996",
@@ -19088,9 +19081,9 @@
     "sceneTags": [
       "ロングネイル・ラグジュアリー"
     ],
-    "sourceKeyword": "ジェルネイル パーツ",
+    "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:21.041Z"
+    "updatedAt": "2026-09-22T21:10:50.689Z"
   },
   {
     "productId": "chumchum-32:10004990",
@@ -19103,9 +19096,9 @@
     "sceneTags": [
       "ロングネイル・ラグジュアリー"
     ],
-    "sourceKeyword": "ジェルネイル パーツ",
+    "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:21.245Z"
+    "updatedAt": "2026-09-22T21:10:50.898Z"
   },
   {
     "productId": "chumchum-32:10004991",
@@ -19118,9 +19111,9 @@
     "sceneTags": [
       "ロングネイル・ラグジュアリー"
     ],
-    "sourceKeyword": "ジェルネイル パーツ",
+    "sourceKeyword": "ネイルストーン",
     "category": "parts",
-    "updatedAt": "2026-09-22T13:01:21.567Z"
+    "updatedAt": "2026-09-22T21:10:50.912Z"
   },
   {
     "productId": "chumchum-32:10003989",
@@ -19329,5 +19322,1118 @@
     "sourceKeyword": "ネイルストーン",
     "category": "parts",
     "updatedAt": "2026-09-22T13:01:26.298Z"
+  },
+  {
+    "productId": "almeria-secondstore:10886334",
+    "name": "Modelones ジェルネイル マグネットジェル キャッツアイジェル 6色セット ギャラクシー キャンディー カラージェル 猫目 キャツアイ UV・LED対応 ポリッシュタイプ セルフネイル",
+    "price": 3208,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/almeria-secondstore/cabinet/item/635/57081394634_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uh3fo.4emtbf06.g00uh3fo.4emtc1f3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falmeria-secondstore%2F57081394634%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falmeria-secondstore%2Fi%2F10886334%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#b4b4b7",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:27.472Z"
+  },
+  {
+    "productId": "smart-life-gear:10013721",
+    "name": "【送料無料】Selens カラーフィルター 25cmx25cm 照明用 ジェルカラーフィルター 半透明 色補正 2",
+    "price": 5095,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/smart-life-gear/cabinet/n20260512194931/b08lmz2kph-1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uvfqo.4emtbad7.g00uvfqo.4emtc3d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmart-life-gear%2Fs-b08lmz2kph-20260513%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmart-life-gear%2Fi%2F10013721%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#979693",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:27.608Z"
+  },
+  {
+    "productId": "ps-direct:10063438",
+    "name": "Modelones ジェルネイル トップ コート ベース コート ビルダー ネイル ジェル 3*15mlセット、ノンワイプトップコート、 トップ コート シャイン フィニッシュ、7-in-1 クリア ジェル ビルダー 爪の強化 アペックス ジェルネイル用 UV/LED対応 ネイルジェル カラージェルネイ",
+    "price": 2056,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ps-direct/cabinet/r_2024080626/20250305154914_74_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tvyeo.4emtb057.g00tvyeo.4emtcf15/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fps-direct%2F20250305154914_74%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fps-direct%2Fi%2F10063438%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c7c6c4",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:27.835Z"
+  },
+  {
+    "productId": "ps-direct:10063452",
+    "name": "Modelones ジェルネイル ポリネイルジェル カラージェル 長さだし エクステンションジェル スカルプネイル付きセット オールインワンキット",
+    "price": 2860,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ps-direct/cabinet/r_2024080626/20250305155116_74_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tvyeo.4emtb057.g00tvyeo.4emtcf15/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fps-direct%2F20250305155116_74%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fps-direct%2Fi%2F10063452%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c1b2ad",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:28.076Z"
+  },
+  {
+    "productId": "matsukageya:10133473",
+    "name": "Meking カラーフィルター ジェルカラーフィルター 100x100cm / 39.3x39.3in 撮影用半透明カラーフィルター 照明 色補正用 フラッシュ ストロボ LEDライトに対応 DIY可能 オレンジ/ブルー/グリーン/レッド/ホワイト/イエロ",
+    "price": 4434,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/matsukageya/cabinet/root_sniper_folder/sniper_folder_00002/imgrc0103718381.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u00lo.4emtb356.g00u00lo.4emtc765/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsukageya%2Fmk-0b7wcvd15%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmatsukageya%2Fi%2F10133473%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cac1b2",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:29.599Z"
+  },
+  {
+    "productId": "seikatsuouenshop:10050203",
+    "name": "Meking カラーフィルター ジェルカラーフィルター 100x100cm / 39.3x39.3in 撮影用半透明カラーフィルター 照明 色補正用 フラッシュ ストロボ LEDライトに対応 DIY可能 オレンジ/ブルー/グリーン/レッド/ホワイト/イエロ",
+    "price": 4300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/seikatsuouenshop/cabinet/root_sniper_folder/sniper_folder_00029/imgrc0119758356.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ujj2o.4emtb0b1.g00ujj2o.4emtcc18/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseikatsuouenshop%2Fabc-0b7wcvd15%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseikatsuouenshop%2Fi%2F10050203%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cac1b2",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:29.742Z"
+  },
+  {
+    "productId": "rise0729ri:10410378",
+    "name": "ヘアクリップ レディース ガールズ ヘアピン 2個セット 波型 ウェーブ 髪留め 髪飾り 前髪クリップ サイドクリップ ヘアアクセサリー パステルカラー キャンディカラー クリア ジェルカラー カラフル かわいい 前髪 固定 跡がつかない 持ち運び 小さ",
+    "price": 3100,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rise0729ri/cabinet/13287701/alb16907754_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uorso.4emtbbd0.g00uorso.4emtc3f4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frise0729ri%2F67tb4ncbjzmbcp7h6mkbnynhdy-alb%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frise0729ri%2Fi%2F10410378%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#9a827e",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:29.877Z"
+  },
+  {
+    "productId": "bellcosme:10072742",
+    "name": "プリジェル プリジェル カラーEX PG-CE895 ベリースカイ (シアー) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110162_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110162%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072742%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c9c8c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:30.277Z"
+  },
+  {
+    "productId": "bellcosme:10072741",
+    "name": "プリジェル プリジェル カラーEX PG-CE894 スイートペア (シアー) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110161_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110161%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072741%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c9c8c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:30.405Z"
+  },
+  {
+    "productId": "bellcosme:10072720",
+    "name": "プリジェル プリジェル カラーEX CE880 スモーキーベージュR (マット) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110140_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110140%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072720%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cac8c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:30.552Z"
+  },
+  {
+    "productId": "bellcosme:10072644",
+    "name": "プリジェル プリジェル カラーEX CE827 ヌードピンク (シアー) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110064_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110064%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072644%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cac8c7",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:30.677Z"
+  },
+  {
+    "productId": "bellcosme:10072734",
+    "name": "プリジェル プリジェル カラーEX CE891 ペールラベンダー (シアー) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110154_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110154%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072734%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cac8c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:30.800Z"
+  },
+  {
+    "productId": "bellcosme:10072657",
+    "name": "プリジェル プリジェル カラーEX CE845 セブンティーズオリーブ (マット) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110077_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110077%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072657%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c9c8c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:30.923Z"
+  },
+  {
+    "productId": "bellcosme:10072722",
+    "name": "プリジェル プリジェル カラーEX CEN255 ミルクティーR (マット) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110142_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110142%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072722%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cac8c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:31.061Z"
+  },
+  {
+    "productId": "bellcosme:10072653",
+    "name": "プリジェル プリジェル カラーEX CE839 ターコイズグリーン (マット) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1279,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110073_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110073%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072653%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c9c8c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:31.184Z"
+  },
+  {
+    "productId": "bellcosme:10072656",
+    "name": "プリジェル プリジェル カラーEX CE844 セブンティーズキャメル (マット) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110076_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110076%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072656%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c9c7c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:31.550Z"
+  },
+  {
+    "productId": "bellcosme:10072732",
+    "name": "プリジェル プリジェル カラーEX CE889 ペールベージュ (シアー) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110152_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110152%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072732%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cac8c7",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:31.684Z"
+  },
+  {
+    "productId": "bellcosme:10072652",
+    "name": "プリジェル プリジェル カラーEX CE838 ターコイズブルー (マット) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1279,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110072_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110072%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072652%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c9c8c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:31.814Z"
+  },
+  {
+    "productId": "bellcosme:10072740",
+    "name": "プリジェル プリジェル カラーEX PG-CE893 パパイア (シアー) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1247,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110160_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110160%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072740%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cac8c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:31.935Z"
+  },
+  {
+    "productId": "bellcosme:10072655",
+    "name": "プリジェル プリジェル カラーEX CE843 セブンティーズボルドー (マット) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110075_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110075%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072655%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c9c7c6",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:32.057Z"
+  },
+  {
+    "productId": "bellcosme:10072739",
+    "name": "プリジェル プリジェル カラーEX CE249 漆黒 (マット) | ネイル用品 持ちがいい 落ちにくい",
+    "price": 1216,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellcosme/cabinet/item/c81/c8110159_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s3l8o.4emtbc3b.g00s3l8o.4emtcd56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellcosme%2Fc8110159%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellcosme%2Fi%2F10072739%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cac8c7",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルカラー",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:32.180Z"
+  },
+  {
+    "productId": "freema-ket01:10006261",
+    "name": "GAOY ジェルネイル シアーカラージェル 紫 ゼリーパープル 透明感 16ml UV・LED対応 ソークオフジェル ポリッシュタイプ セルフネイル（1721 アメジスト）",
+    "price": 1052,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/freema-ket01/cabinet/r_2026012701/20260127044555_102_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uluio.4emtb083.g00uluio.4emtcf45/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffreema-ket01%2F20260127044555_102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffreema-ket01%2Fi%2F10006261%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#e0d2ce",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:33.131Z"
+  },
+  {
+    "productId": "freema-ket01:10006532",
+    "name": "GAOY ジェルネイル シアーカラージェル ピンク 透明感 16ml UV・LED対応 ソークオフジェル ポリッシュタイプ セルフネイル（1624 オーシャンソング）",
+    "price": 789,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/freema-ket01/cabinet/r_2026012703/20260127052039_102_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uluio.4emtb083.g00uluio.4emtcf45/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffreema-ket01%2F20260127052039_102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffreema-ket01%2Fi%2F10006532%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#e4d3d1",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:33.246Z"
+  },
+  {
+    "productId": "freema-ket01:10006611",
+    "name": "GAOY ジェルネイル カラージェル ミルキーホワイト 1482 単色 16ml UV・LED対応 ソークオフジェル ポリッシュタイプ セルフネイル",
+    "price": 883,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/freema-ket01/cabinet/r_2026012756/20260127052956_102_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uluio.4emtb083.g00uluio.4emtcf45/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffreema-ket01%2F20260127052956_102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffreema-ket01%2Fi%2F10006611%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#ead1cb",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:33.406Z"
+  },
+  {
+    "productId": "ps-direct:10063431",
+    "name": "Modelones 7in1クリアジェル 15ml ベースコート ネイル保護 ネイルビルダージェル ポリッシュ ネイルジェル ネイルチップ接着剤 ベースコート＆補強ジェル＆スリップソリューション ジェルネイル (乳白色)",
+    "price": 1755,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ps-direct/cabinet/r_2024080626/20250305154814_74_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tvyeo.4emtb057.g00tvyeo.4emtcf15/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fps-direct%2F20250305154814_74%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fps-direct%2Fi%2F10063431%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d2d0ce",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:33.554Z"
+  },
+  {
+    "productId": "scintitur:10616392",
+    "name": "【送料無料】Modelones 7in1クリアジェル 15ml ベースコート ネイル保護 ネイルビルダージェル ポリッシュ ネイルジェル ネイルチップ接着剤 ベースコート＆補強ジェル＆スリップソリューション ジェルネイル 色：クリア、サイズ：15 ml (Pack of 1)",
+    "price": 1799,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/scintitur/cabinet/rakuv158_0455/b0b8z7g4ms00.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u5w8o.4emtb02f.g00u5w8o.4emtc81b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fscintitur%2Fb0b8z7g4ms%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fscintitur%2Fi%2F10616392%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cdc6c4",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:34.120Z"
+  },
+  {
+    "productId": "manoangel:10008483",
+    "name": "GAOY ジェルネイル シアーカラージェル ゼリーヌード 透明感 16ml UV・LED対応 ソークオフジェル ポリッシュタイプ セルフネイル（1968 ピュアヌード）",
+    "price": 1023,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/manoangel/cabinet/r_2025052834/20250528035409_100_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ujrzo.4emtb87a.g00ujrzo.4emtc53f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmanoangel%2F20250528035409_100%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmanoangel%2Fi%2F10008483%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#ded2cc",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:34.382Z"
+  },
+  {
+    "productId": "rednails:10156101",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 003S リラックス ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s003s0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s003s0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156101%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#e8d7ca",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:34.529Z"
+  },
+  {
+    "productId": "rednails:10156112",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 014M エクリュ ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s014m0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s014m0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156112%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#dfd4c7",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:34.653Z"
+  },
+  {
+    "productId": "rednails:10156095",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 012M カドル ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s012m0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s012m0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156095%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#e2d2ce",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:34.782Z"
+  },
+  {
+    "productId": "rednails:10156099",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 011G エモーショナル ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s011g0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s011g0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156099%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d5c7bf",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:34.908Z"
+  },
+  {
+    "productId": "rednails:10156090",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 007S ヘイジー ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s007s0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s007s0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156090%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#dacec5",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:35.031Z"
+  },
+  {
+    "productId": "rednails:10156103",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 010G マリアージュ ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s010g0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s010g0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156103%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#ddd4cf",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:35.187Z"
+  },
+  {
+    "productId": "rednails:10156088",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 006S サンド ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s006s0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s006s0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156088%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d8cab9",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:35.311Z"
+  },
+  {
+    "productId": "rednails:10156102",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 017M ディム ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s017m0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s017m0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156102%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d5d1c7",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:35.641Z"
+  },
+  {
+    "productId": "rednails:10156105",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 018M ハウエバー ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s018m0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s018m0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156105%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d4cecc",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:35.764Z"
+  },
+  {
+    "productId": "rednails:10156091",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 001S スウィート ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s001s0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s001s0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156091%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cfb2ab",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:35.893Z"
+  },
+  {
+    "productId": "rednails:10156111",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 015M モカ ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s015m0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s015m0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156111%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d3c5bc",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:36.014Z"
+  },
+  {
+    "productId": "rednails:10156092",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 009S アウル ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s009s0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s009s0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156092%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cac1bb",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:36.138Z"
+  },
+  {
+    "productId": "rednails:10156104",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 016M ヨガ ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s016m0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s016m0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156104%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#e1dbd5",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:36.463Z"
+  },
+  {
+    "productId": "rednails:10156093",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 005S オーガニック ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s005s0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s005s0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156093%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#e2dacf",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:36.587Z"
+  },
+  {
+    "productId": "rednails:10156098",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 008S メロウ ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s008s0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s008s0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156098%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d8c9bf",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:36.717Z"
+  },
+  {
+    "productId": "rednails:10156097",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 004S バレリーナ お取り寄せ ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s004s0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s004s0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156097%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#ede8e2",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:36.853Z"
+  },
+  {
+    "productId": "rednails:10156100",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル シーナ scena カラージェルポリッシュ 7g 013M イノセント ポリッシュタイプ",
+    "price": 1320,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/scena/327-sc-s013m0000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F327-sc-s013m0000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156100%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#decec1",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:37.207Z"
+  },
+  {
+    "productId": "hellodear:10712898",
+    "name": "【送料無料】Modelones 7in1クリアジェル 15ml ベースコート ネイル保護 ネイルビルダージェル ポリッシュ ネイルジェル ネイルチップ接着剤 ベースコート＆補強ジェル＆スリップソリューション ジェルネイル 色：クリア、サイズ：15 ml (Pack of 1)",
+    "price": 1799,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/hellodear/cabinet/rakuv158_0455/b0b8z7g4ms00.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ulv1o.4emtb11e.g00ulv1o.4emtc894/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhellodear%2Fb0b8z7g4ms%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhellodear%2Fi%2F10712898%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cbc0c3",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:37.336Z"
+  },
+  {
+    "productId": "freema-ket01:10007526",
+    "name": "GAOY ジェルネイル カラージェルセット レッド ピンク ヌード 6色セット UV・LED対応 ソークオフジェル ポリッシュタイプ セルフネイル サロン級 アイスゼリー",
+    "price": 2499,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/freema-ket01/cabinet/r_2024081003/20260522152627_102_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uluio.4emtb083.g00uluio.4emtcf45/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffreema-ket01%2F20260522152627_102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffreema-ket01%2Fi%2F10007526%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#eadbd7",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:37.505Z"
+  },
+  {
+    "productId": "hellodear:10460215",
+    "name": "【送料無料】Modelones 7in1ビルダージェル 乳白色 15ml ベースコート ネイル保護 ネイルビルダージェル ポリッシュ ネイルジェル ネイルチップ接着剤 ベースコート＆補強ジェル＆スリップソリューション ジェルネイル (ワイト)",
+    "price": 2136,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/hellodear/cabinet/rakus142_0453/b0c8n2721j00.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ulv1o.4emtb11e.g00ulv1o.4emtc894/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhellodear%2Fb0c8n2721j%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhellodear%2Fi%2F10460215%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cbc0c3",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:37.636Z"
+  },
+  {
+    "productId": "zakkabenrikuishinbou:10529907",
+    "name": "【送料無料】Modelones 7in1クリアジェル 15ml ベースコート ネイル保護 ネイルビルダージェル ポリッシュ ネイルジェル ネイルチップ接着剤 ベースコート＆補強ジェル＆スリップソリューション ジェルネイル 色：クリア、サイズ：15 ml (Pack of 1)",
+    "price": 1699,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zakkabenrikuishinbou/cabinet/rakuv158_0455/b0b8z7g4ms00.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uj9to.4emtb8ba.g00uj9to.4emtc4e9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzakkabenrikuishinbou%2Fb0b8z7g4ms%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fzakkabenrikuishinbou%2Fi%2F10529907%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c2b5ad",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:37.778Z"
+  },
+  {
+    "productId": "rednails:10155723",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル カルジェル Calgel カルジェル 12C ノンワイプ スリーインワン ジェルポリッシュ02インディゴ カーム オックス8ml かるじぇる",
+    "price": 2613,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/moga/265-cl-cg12c0200.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F265-cl-cg12c0200%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10155723%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#b8bcbf",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルポリッシュ",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:37.890Z"
+  },
+  {
+    "productId": "rednails:10155263",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F075 アクアブルー ぱらじぇる ボトルジェル ボトルタイプ パラポリッシュ para polish",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf075000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf075000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10155263%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#bab7bf",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:39.444Z"
+  },
+  {
+    "productId": "rednails:10132047",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F022 チャコールボルドー マット",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf022000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf022000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132047%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#8c6465",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:39.561Z"
+  },
+  {
+    "productId": "rednails:10147269",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g B027 ヘンプベージュ シアー",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppb027000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppb027000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10147269%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d1ccb9",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:39.683Z"
+  },
+  {
+    "productId": "rednails:10152533",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F067 アイスダスト ぱらじぇる 2023サマー ボトルジェル ボトルタイプ",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf067000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf067000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10152533%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#cdcdce",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:39.806Z"
+  },
+  {
+    "productId": "rednails:10149952",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g B034 アイリス",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppb034000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppb034000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10149952%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#a092a0",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:40.143Z"
+  },
+  {
+    "productId": "rednails:10147272",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g B024 サンドグレー シアー",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppb024000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppb024000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10147272%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#b8b5ae",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:40.478Z"
+  },
+  {
+    "productId": "rednails:10132028",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F003 ホワイトパール パール",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf003000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf003000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132028%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d4d4d2",
+    "sceneTags": [
+      "ロングネイル・ラグジュアリー"
+    ],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:40.616Z"
+  },
+  {
+    "productId": "rednails:10132030",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F005 ワインレッド マット",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf005000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf005000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132030%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#a5747f",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:40.748Z"
+  },
+  {
+    "productId": "rednails:10132040",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F015 キャラメル マット",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf015000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf015000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132040%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#b79887",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:40.886Z"
+  },
+  {
+    "productId": "rednails:10153716",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g B041 シナモンアップル",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppb041000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppb041000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10153716%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d6b776",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:41.008Z"
+  },
+  {
+    "productId": "rednails:10156467",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル para gel パラポリッシュジェル7g F080 ムーンダストシルバー paragel ぱらじぇる",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf080000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf080000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10156467%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#bfbebe",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:41.143Z"
+  },
+  {
+    "productId": "matsukiyo:10519149",
+    "name": "美人製造研究所 イースペシャル スキンポリッシュジェル マイルドドクターピールα 30g",
+    "price": 5170,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/matsukiyo/cabinet/d0069/4562167614033_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rqszo.4emtb32a.g00rqszo.4emtcffe/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsukiyo%2F4562167614033%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmatsukiyo%2Fi%2F10519149%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#f8edf0",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:41.282Z"
+  },
+  {
+    "productId": "rednails:10132062",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F037 モーブピンク マット",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf037000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf037000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132062%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#ae9d9d",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:41.405Z"
+  },
+  {
+    "productId": "rednails:10132054",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F029 ブラッドオレンジ マット",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf029000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf029000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132054%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#ba8379",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:41.534Z"
+  },
+  {
+    "productId": "rednails:10149948",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g B038 サックスブルー",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppb038000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppb038000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10149948%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#92abb6",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:41.655Z"
+  },
+  {
+    "productId": "rednails:10153722",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F070 マラカイトグリーン",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf070000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf070000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10153722%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#879688",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:41.784Z"
+  },
+  {
+    "productId": "rednails:10132056",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F031 ミントグリーン マット",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf031000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf031000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132056%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#a9b2aa",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:41.913Z"
+  },
+  {
+    "productId": "rednails:10148684",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F058 ゼニスブルー",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf058000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf058000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10148684%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#a9b4ce",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:42.035Z"
+  },
+  {
+    "productId": "rednails:10155269",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F072 ソフトピーチ ぱらじぇる ボトルジェル ボトルタイプ パラポリッシュ para polish",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf072000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf072000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10155269%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#b8b2ba",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:42.156Z"
+  },
+  {
+    "productId": "rednails:10132026",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F001 オペラレッド マット",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf001000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf001000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132026%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c47085",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:42.282Z"
+  },
+  {
+    "productId": "rednails:10132075",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g N011 スウィートローズ マット",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppn011000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppn011000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132075%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c39b9c",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:42.406Z"
+  },
+  {
+    "productId": "rednails:10132063",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F038 バレエピンク マット",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf038000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf038000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132063%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#b49b9b",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:42.538Z"
+  },
+  {
+    "productId": "rednails:10154295",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g B048 カシスベリー ぱらじぇる ボトルジェル ボトルタイプ パラポリッシュ para polish",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppb048000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppb048000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10154295%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#bd8e9b",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:42.663Z"
+  },
+  {
+    "productId": "rednails:10132008",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g B005 ヌーディーピンク マット",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppb005000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppb005000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10132008%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d5b8af",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:42.791Z"
+  },
+  {
+    "productId": "rednails:10148678",
+    "name": "【9/20 当店ポイント10倍!9/19 20:00~お買い物マラソン開催】ジェルネイル カラージェル パラジェル paragel パラポリッシュジェル7g F052 ケリーグリーン",
+    "price": 3300,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rednails/cabinet/paragel/314-pg-ppf052000.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q30zo.4emtbb79.g00q30zo.4emtc386/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frednails%2F314-pg-ppf052000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frednails%2Fi%2F10148678%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#66a88a",
+    "sceneTags": [],
+    "sourceKeyword": "ポリッシュジェル",
+    "category": "color",
+    "updatedAt": "2026-09-22T21:10:42.922Z"
+  },
+  {
+    "productId": "freema-ket01:10006191",
+    "name": "Missgooey ネイルパーツ接着剤 ネイルチップ接着剤 つけ爪接着剤 粘土ジェル クリア ラインストーン接着 ジェルネイル 多機能 強力 UV/LED対応 初心者＆プロ適用 15g",
+    "price": 1304,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/freema-ket01/cabinet/r_2024100723/20260127043642_102_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uluio.4emtb083.g00uluio.4emtcf45/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffreema-ket01%2F20260127043642_102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffreema-ket01%2Fi%2F10006191%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d9d5d5",
+    "sceneTags": [
+      "ロングネイル・ラグジュアリー"
+    ],
+    "sourceKeyword": "ジェルネイル パーツ",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:43.950Z"
+  },
+  {
+    "productId": "backyard-1:10020651",
+    "name": "ネイルフォーム 好評 スカルプ ジェルネイル 人工爪 スカルプチュア nail form パーツ セルフネイル 100枚 ネイルツール ネイルアート 爪 ケア おしゃれ ネイルケア ネイル用品 グッズ",
+    "price": 1092,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/backyard-1/cabinet/main08/isi004.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rifyo.4emtb270.g00rifyo.4emtc54f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbackyard-1%2Fisi004%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbackyard-1%2Fi%2F10020651%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#ddd4bb",
+    "sceneTags": [],
+    "sourceKeyword": "ジェルネイル パーツ",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:44.071Z"
+  },
+  {
+    "productId": "daikokuyaume:10133594",
+    "name": "ネイル スタッズ 2個セット 3D 立体 貝殻 ヒトデ 巻貝 タツノオトシゴ ブリオン パール ネイルパーツ スタッズ メタルパーツ ゴールド シェル 貝 ヒトデ ネイルアートパーツ 海系 夏 サマー ジェルネイル ネイルアート デコパーツ ハンドメ",
+    "price": 1069,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/daikokuyaume/cabinet/n20250731192343/b0fhdp6d6m-1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uk08o.4emtb029.g00uk08o.4emtc537/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaikokuyaume%2Fs-b0fhdp6d6m-20250731%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdaikokuyaume%2Fi%2F10133594%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#b5b59e",
+    "sceneTags": [
+      "ロングネイル・ラグジュアリー",
+      "シーン季節のネイルアート"
+    ],
+    "sourceKeyword": "ジェルネイル パーツ",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:44.211Z"
+  },
+  {
+    "productId": "chumchum-32:10005045",
+    "name": "ネイルチェーン ハンドメイド 韓国 レジン ネイル チェーン ラインストーン ネイル チェーン ネイルチェーン クリスタルチェーン ストーン ビジュー ネイルビジュー ネイルストーン シルバー ゴールド 囲み 細い ハンドメイド 材料 ジェルネイル ネイルアート セルフネイル",
+    "price": 290,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/chumchum-32/cabinet/c-1/c0001.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tkt4o.4emtb493.g00tkt4o.4emtc34e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchumchum-32%2Fc0001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fchumchum-32%2Fi%2F10005045%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#dfd5c2",
+    "sceneTags": [
+      "ロングネイル・ラグジュアリー"
+    ],
+    "sourceKeyword": "ネイルストーン",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:51.149Z"
+  },
+  {
+    "productId": "ps-direct:10062789",
+    "name": "ラインストーン カラー 大容量 1.4mm~8mm 13色 SS3~SS40 ネイル デコ カラーラインストーン ガラスストーン Yunemart DIY ネイル用ストーン 2個ケース付き クリスタル ネイルストーンパーツ YES137",
+    "price": 1081,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ps-direct/cabinet/r_2024071641/20250228135448_74_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tvyeo.4emtb057.g00tvyeo.4emtcf15/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fps-direct%2F20250228135448_74%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fps-direct%2Fi%2F10062789%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#d7d2d1",
+    "sceneTags": [
+      "ロングネイル・ラグジュアリー"
+    ],
+    "sourceKeyword": "ネイルストーン",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:51.302Z"
+  },
+  {
+    "productId": "ps-direct:10062472",
+    "name": "ネイルパーツ スタッズ 3D 立体 可愛い おしゃれ Y2K リボン 星 月 ハート 花 蝶結び スター 王冠 多種類 シルバーゴールド 合金 小さい ネイルストーン ネイルアート パーツ メタル デコパーツ ジェルネイル ジュエリーパーツ DIY 手芸素材 ハンドメイド (B)",
+    "price": 946,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ps-direct/cabinet/r_2024071127/20250226120505_74_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tvyeo.4emtb057.g00tvyeo.4emtcf15/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fps-direct%2F20250226120505_74%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fps-direct%2Fi%2F10062472%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#e2d9d2",
+    "sceneTags": [
+      "ロングネイル・ラグジュアリー"
+    ],
+    "sourceKeyword": "ネイルストーン",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:51.426Z"
+  },
+  {
+    "productId": "ps-direct:10062473",
+    "name": "ネイルパーツ リボン ネイル スタッズ 星 3D 立体 Y2K スター 四芒星 蝶結び 十字架 シルバー ゴールド 合金 ネイルストーン ネイルアート パーツ メタル デコパーツ ジェルネイル ジュエリーパーツ ハンドメイド DIY 手芸素材",
+    "price": 946,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ps-direct/cabinet/r_2024071127/20250226120512_74_1.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tvyeo.4emtb057.g00tvyeo.4emtcf15/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fps-direct%2F20250226120512_74%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fps-direct%2Fi%2F10062473%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#3c3933",
+    "sceneTags": [
+      "ロングネイル・ラグジュアリー"
+    ],
+    "sourceKeyword": "ネイルストーン",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:51.553Z"
+  },
+  {
+    "productId": "scintitur:10500046",
+    "name": "【送料無料】Chisafly ネイルパーツ ストーン ネイルストーン スクエア 宝石 クリスタル 大きめ ラインストーン キラキラ 立体 6個セット 色：オーロラ‐ホワイト、サイズ：10*10mm",
+    "price": 1439,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/scintitur/cabinet/rakuv158_0633/b0cxhzgj3s00.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u5w8o.4emtb02f.g00u5w8o.4emtc81b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fscintitur%2Fb0cxhzgj3s%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fscintitur%2Fi%2F10500046%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#c4beb9",
+    "sceneTags": [
+      "ロングネイル・ラグジュアリー"
+    ],
+    "sourceKeyword": "ネイルストーン",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:51.810Z"
+  },
+  {
+    "productId": "scintitur:10542667",
+    "name": "【送料無料】DFsucces ネイルパーツ 32個セット ハート 惑星 パール クロス ネイルストーン 立体 3D ネイルアート ジュエリーパーツ DIY クラフトアクセサリー 色：32個セット-王冠",
+    "price": 1493,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/scintitur/cabinet/rakuv158_0992/b0fr4hd76800.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u5w8o.4emtb02f.g00u5w8o.4emtc81b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fscintitur%2Fb0fr4hd768%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fscintitur%2Fi%2F10542667%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#eae2de",
+    "sceneTags": [
+      "ロングネイル・ラグジュアリー"
+    ],
+    "sourceKeyword": "ネイルストーン",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:51.942Z"
+  },
+  {
+    "productId": "scintitur:10606882",
+    "name": "【送料無料】ジルコン製 Vカットストーン ネイルパーツ デコパーツ ラインストーン 3Dネイルダイヤモンド DIYラインストーン ネイルシール ネイルデコレーション ネイルストーン リベット スパンコール アクセサリーパーツ ハンドメイド 携 色：混合色、サイズ：9x5.3mm",
+    "price": 1619,
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/scintitur/cabinet/rakuv158_0207/b08mbxlzkk00.jpg",
+    "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u5w8o.4emtb02f.g00u5w8o.4emtc81b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fscintitur%2Fb08mbxlzkk%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fscintitur%2Fi%2F10606882%2F&rafcid=wsc_i_is_7be1d02b-c76a-47e0-b088-16cdf1aba93d",
+    "aspSource": "楽天",
+    "hexColor": "#dbcec5",
+    "sceneTags": [
+      "ロングネイル・ラグジュアリー"
+    ],
+    "sourceKeyword": "ネイルストーン",
+    "category": "parts",
+    "updatedAt": "2026-09-22T21:10:52.098Z"
   }
 ]
