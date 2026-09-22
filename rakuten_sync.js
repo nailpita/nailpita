@@ -53,11 +53,12 @@ async function fetchRakutenProducts(keyword, page = 1) {
   }));
 }
 
-// --- ② 商品画像から代表色を自動抽出 ---
+// --- ② 商品画像から代表色を自動抽出(Lab値の簡易版としてRGBを保存) ---
 async function extractDominantColor(imageUrl) {
   const res = await fetch(imageUrl);
   const buffer = Buffer.from(await res.arrayBuffer());
 
+  // 60x60にリサイズしてから平均色を計算(処理を軽くするため)
   const { data, info } = await sharp(buffer)
     .resize(60, 60, { fit: 'cover' })
     .removeAlpha()
@@ -79,7 +80,7 @@ async function extractDominantColor(imageUrl) {
   return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
 }
 
-// --- ③ シーン・テーマの簡易タグ付け ---
+// --- ③ シーン・テーマの簡易タグ付け(ルールベース、第一段階) ---
 function assignSceneTags(name) {
   const tags = [];
   if (/シンプル|オフィス|ワンカラー/.test(name)) tags.push('オフィス・シンプル');
@@ -88,7 +89,9 @@ function assignSceneTags(name) {
   return tags;
 }
 
-// --- ④ 商品データの保存 ---
+// --- ④ 商品データの保存
+// 本格的なDBを用意するまでの間は、リポジトリ内のproducts.jsonに書き出す方式にしている。
+// (GitHub Actionsでこのファイルを自動コミットすれば、簡易的な「商品DB」として機能する)
 function loadExistingProducts() {
   if (fs.existsSync(OUTPUT_PATH)) {
     try {
@@ -106,11 +109,19 @@ function saveProducts(products) {
 
 // --- 実行本体 ---
 async function runBatch() {
+  // ↓↓↓ 原因切り分け用の一時的なログ(原因が分かったら削除してOK) ↓↓↓
+  console.log('APP_ID の状態:', APP_ID ? `設定あり(${APP_ID.length}文字)` : '未設定 or 空');
+  console.log('AFFILIATE_ID の状態:', AFFILIATE_ID ? `設定あり(${AFFILIATE_ID.length}文字)` : '未設定 or 空');
+  console.log('APP_ID 先頭2文字/末尾2文字:', APP_ID ? `${APP_ID.slice(0,2)}...${APP_ID.slice(-2)}` : 'なし');
+  // ↑↑↑ ここまで ↑↑↑
+
   if (!APP_ID || !AFFILIATE_ID) {
     console.error('RAKUTEN_APP_ID / RAKUTEN_AFFILIATE_ID を環境変数に設定してください');
+    process.exitCode = 1;
     return;
   }
 
+  // 既存データをproductIdでMap化(同じ商品は上書き更新、新商品は追加)
   const existing = loadExistingProducts();
   const productMap = new Map(existing.map((p) => [p.productId, p]));
 
@@ -127,8 +138,8 @@ async function runBatch() {
           ...item,
           hexColor,
           sceneTags,
-          sourceKeyword: keyword,
-          category,
+          sourceKeyword: keyword,   // どのキーワードで見つかったか(絞り込み用)
+          category,                 // 'color' または 'parts'(フロント側での表示切り替え用)
           updatedAt: new Date().toISOString(),
         });
       } catch (err) {
