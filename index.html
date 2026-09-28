@@ -435,13 +435,8 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
     <p class="section-head" style="margin-top:26px; margin-bottom:0;">
       <span style="font-size:12px; color:var(--muted);">もっと自分でキーワード検索したい方はこちら</span>
     </p>
-    <div class="pill-row">
-      <a class="pill" href="https://search.rakuten.co.jp/search/mall/%E3%82%B8%E3%82%A7%E3%83%AB%E3%83%9D%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5/" target="_blank" rel="nofollow noopener">ジェルポリッシュ</a>
-      <a class="pill" href="https://search.rakuten.co.jp/search/mall/%E3%83%9D%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B8%E3%82%A7%E3%83%AB/" target="_blank" rel="nofollow noopener">ポリッシュジェル</a>
-      <a class="pill" href="https://search.rakuten.co.jp/search/mall/%E3%82%B8%E3%82%A7%E3%83%AB%E3%83%9D%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5%20%E3%83%8C%E3%83%BC%E3%83%87%E3%82%A3/" target="_blank" rel="nofollow noopener">ヌーディカラー</a>
-      <a class="pill" href="https://search.rakuten.co.jp/search/mall/%E3%82%B8%E3%82%A7%E3%83%AB%E3%83%9D%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5%20%E3%82%B7%E3%82%A2%E3%83%BC/" target="_blank" rel="nofollow noopener">シアーカラー</a>
-      <a class="pill" href="https://search.rakuten.co.jp/search/mall/%E3%82%B8%E3%82%A7%E3%83%AB%E3%83%9D%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5%20%E3%83%9F%E3%83%AB%E3%82%AD%E3%83%BC/" target="_blank" rel="nofollow noopener">ミルキーカラー</a>
-    </div>
+    <!-- ▼ボタンは下のスクリプト(renderSearchPills)が自動で作ります -->
+    <div class="pill-row" id="searchPills"></div>
   </section>
 
   <section class="closing">
@@ -492,6 +487,36 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
       '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
     }[s]));
   }
+})();
+</script>
+
+<script>
+(function renderSearchPills(){
+  // ▼ボタンの表示名(label)と、楽天アフィリエイト管理画面で作ったリンク(url)
+  //   url が空('')のままのボタンは、報酬の付かない普通の楽天検索リンクで表示されます(ページは壊れません)
+  //   作ったリンク(https://hb.afl.rakuten.co.jp/...)を、シングルクォートの中に貼ってください
+  //   ボタンを増やしたいときは、この形の1行を足すだけ
+  var ITEMS = [
+    { label: 'ジェルポリッシュ', keyword: 'ジェルポリッシュ',           url: '' },
+    { label: 'ポリッシュジェル', keyword: 'ポリッシュジェル',           url: '' },
+    { label: 'ヌーディカラー',   keyword: 'ジェルポリッシュ ヌーディ',   url: '' },
+    { label: 'シアーカラー',     keyword: 'ジェルポリッシュ シアー',     url: '' },
+    { label: 'ミルキーカラー',   keyword: 'ジェルポリッシュ ミルキー',   url: '' }
+  ];
+
+  function fallbackLink(keyword){
+    return 'https://search.rakuten.co.jp/search/mall/' + encodeURIComponent(keyword) + '/';
+  }
+
+  var box = document.getElementById('searchPills');
+  if (!box) return;
+
+  box.innerHTML = ITEMS.map(function(it){
+    var isAffiliate = it.url && it.url.indexOf('https://hb.afl.rakuten.co.jp/') === 0;
+    var href = isAffiliate ? it.url : fallbackLink(it.keyword);
+    var rel = isAffiliate ? 'nofollow sponsored noopener' : 'nofollow noopener';
+    return '<a class="pill" href="' + href + '" target="_blank" rel="' + rel + '">' + it.label + '</a>';
+  }).join('');
 })();
 </script>
 
