@@ -454,15 +454,36 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
 <script>
 (async function loadColorProducts(){
   const grid = document.getElementById('colorGrid');
+
+  // ▼表示から外したい言葉(商品名にこれが入っていたら出さない)。増やしたいときは追加するだけ
+  const NG_WORDS = ['スマホ','ケース','iPhone','ネイルチップ','付け爪','シール','ステッカー','パーツ','ストーン','ライト','キット','セット'];
+  // ▼同じショップの商品を何件まで出すか(1にすると、いろいろなショップが並びます)
+  const MAX_PER_SHOP = 1;
+  // ▼表示する件数
+  const SHOW_COUNT = 8;
+
   try {
     const res = await fetch('./products.json', { cache: 'no-store' });
     if (!res.ok) throw new Error('products.json not found');
     const all = await res.json();
 
-    const colorItems = all
-      .filter(p => p.category === 'color' && p.hexColor)
-      .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
-      .slice(0, 8);
+    // ジェルカラー商品だけを選び、レビュー数の多い順に並べる
+    const candidates = all
+      .filter(p => p.isColorProduct === true && p.hexColor)
+      .filter(p => !NG_WORDS.some(w => String(p.name).includes(w)))
+      .sort((a, b) => (b.reviewCount || 0) - (a.reviewCount || 0));
+
+    // 同じショップばかりにならないように間引く
+    const shopCount = {};
+    const colorItems = [];
+    for (const p of candidates) {
+      const shop = String(p.productId).split(':')[0];
+      shopCount[shop] = shopCount[shop] || 0;
+      if (shopCount[shop] >= MAX_PER_SHOP) continue;
+      shopCount[shop]++;
+      colorItems.push(p);
+      if (colorItems.length >= SHOW_COUNT) break;
+    }
 
     if (colorItems.length === 0) {
       grid.innerHTML = '<p class="loading">現在、表示できる商品がありません</p>';
@@ -473,13 +494,23 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
       <a class="pcard" href="${p.affiliateUrl}" target="_blank" rel="nofollow sponsored noopener">
         <div class="swatch" style="background:${p.hexColor};"></div>
         <div class="body">
-          <div class="name">${escapeHtml(p.name)}</div>
+          <div class="name">${escapeHtml(cleanName(p.name))}</div>
           <div class="price">¥${Number(p.price).toLocaleString()}</div>
         </div>
       </a>
     `).join('');
   } catch (e) {
     grid.innerHTML = '<p class="loading">ただいま準備中です。下のキーワード検索からどうぞ</p>';
+  }
+
+  // 商品名の先頭にある【セール告知】などを取り除いて、見やすくする
+  function cleanName(str){
+    return String(str)
+      .replace(/【[^】]*】/g, '')
+      .replace(/＜[^＞]*＞/g, '')
+      .replace(/★[^★]*★/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
   }
 
   function escapeHtml(str){
