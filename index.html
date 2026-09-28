@@ -457,6 +457,8 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
 
   // ▼表示から外したい言葉(商品名にこれが入っていたら出さない)。増やしたいときは追加するだけ
   const NG_WORDS = ['スマホ','ケース','iPhone','ネイルチップ','付け爪','シール','ステッカー','パーツ','ストーン','ライト','キット','セット'];
+  // ▼表示したい商品タイプの言葉(商品名にどれか1つでも入っていれば表示)。増やしたいときは追加するだけ
+  const TYPE_WORDS = ['ジェルポリッシュ','ポリッシュジェル','ポリッシュタイプ','ボトルジェル','ボトルタイプ','ワンステップ','ノンワイプ'];
   // ▼同じショップの商品を何件まで出すか(1にすると、いろいろなショップが並びます)
   const MAX_PER_SHOP = 1;
   // ▼表示する件数
@@ -467,11 +469,20 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
     if (!res.ok) throw new Error('products.json not found');
     const all = await res.json();
 
-    // ジェルカラー商品だけを選び、レビュー数の多い順に並べる
-    const candidates = all
+    // ジェルカラー商品だけを選ぶ(除外ワードに当てはまるものは外す)
+    const base = all
       .filter(p => p.isColorProduct === true && p.hexColor)
-      .filter(p => !NG_WORDS.some(w => String(p.name).includes(w)))
+      .filter(p => !NG_WORDS.some(w => String(p.name).includes(w)));
+
+    // 指定した商品タイプの言葉を含むものに絞り、レビュー数の多い順に並べる
+    let candidates = base
+      .filter(p => TYPE_WORDS.some(w => String(p.name).includes(w)))
       .sort((a, b) => (b.reviewCount || 0) - (a.reviewCount || 0));
+
+    // 該当が1件もないときは、ページが空にならないよう全ジェルカラーから出す
+    if (candidates.length === 0) {
+      candidates = base.sort((a, b) => (b.reviewCount || 0) - (a.reviewCount || 0));
+    }
 
     // 同じショップばかりにならないように間引く
     const shopCount = {};
