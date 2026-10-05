@@ -136,6 +136,32 @@ section{margin-top:52px;}
 }
 .warn a{color:var(--rose-800); font-weight:700; text-decoration:underline;}
 
+.inline-cta{margin-top:10px; font-size:12px; color:var(--rose-800);}
+.shape-fig{margin:14px 0 0; text-align:center;}
+.shape-fig img{display:block; width:100%; height:auto; max-width:420px; margin:0 auto;}
+.shape-tags{display:grid; grid-template-columns:repeat(3,1fr); gap:6px; max-width:420px; margin:6px auto 0;}
+.shape-tags span{font-size:10px; line-height:1.5; color:var(--rose-600); padding:6px 2px; border-radius:10px; background:var(--rose-50);}
+.shape-tags span.best{outline:2px solid var(--rose-600); outline-offset:-2px; font-weight:700; color:var(--rose-800);}
+.inline-cta a{font-weight:700; text-decoration:underline;}
+
+.cta-box{
+  margin-top:28px; background:#fff; border:2px solid var(--rose-600); border-radius:20px;
+  padding:26px 20px; text-align:center;
+}
+.cta-box .eyebrow{font-size:11.5px; letter-spacing:.12em; color:var(--rose-600); font-weight:700; margin-bottom:8px;}
+.cta-box h3{font-size:21px; color:var(--rose-900); margin-bottom:8px;}
+.cta-box .lead{font-size:12.5px; color:var(--muted); margin:0 0 16px;}
+.cta-btn{
+  display:block; text-decoration:none; background:var(--rose-800); color:#fff;
+  border-radius:16px; padding:14px 16px; margin-top:10px;
+}
+.cta-btn .t{font-size:13.5px; font-weight:700; line-height:1.5;}
+.cta-btn .p{font-size:12px; margin-top:2px; color:var(--rose-100);}
+.cta-btn .go{display:block; margin-top:6px; font-size:12px; font-weight:700;}
+.cta-btn.sub{background:#fff; color:var(--rose-800); border:1px solid var(--rose-400);}
+.cta-btn.sub .p{color:var(--muted);}
+.cta-note{font-size:10.5px; color:var(--muted); margin-top:12px;}
+
 .shape-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:14px;}
 .shape-card{text-align:center; background:var(--rose-50); border-radius:12px; padding:14px 6px 12px;}
 .shape-card svg{display:block; margin:0 auto;}
@@ -261,7 +287,7 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
     <div class="section-head">
       <p class="eyebrow">まずは道具から</p>
       <h2>少ない道具で、<br>まずは1〜2週間持つようなジェルネイルにチャレンジしませんか？</h2>
-      <p>いきなり全部揃えなくて大丈夫。まずはこの3点から。</p>
+      <p>ネイル初心者でも､もちが整う基本セットはこちら</p>
     </div>
     <div class="tool-grid">
 
@@ -316,37 +342,19 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
       <h3>爪の長さ・形を整える</h3>
       <p>エメリーボードは往復がけせず、必ず<strong>一方向</strong>に動かします。往復がけは二枚爪の原因になるので注意。爪が長いと感じる場合は、先に爪切りで少し短くしておきましょう。</p>
 
-      <div class="shape-grid">
-        <div class="shape-card best">
-          <svg width="52" height="78" viewBox="0 0 80 120" fill="none">
-            <path d="M20 118 C10 85 10 50 20 28" stroke="#5C333A" stroke-width="3" stroke-linecap="round"/>
-            <path d="M60 118 C70 85 70 50 60 28" stroke="#5C333A" stroke-width="3" stroke-linecap="round"/>
-            <path d="M20 72 Q40 82 60 72" stroke="#5C333A" stroke-width="3" stroke-linecap="round"/>
-            <path d="M20 72 C18 40 28 18 40 18 C52 18 62 40 60 72" stroke="#5C333A" stroke-width="3"/>
-          </svg>
-          <div class="name">ラウンド</div>
-          <div class="tag">バレにくさ◎</div>
+      <figure class="shape-fig">
+        <img src="./nail-shapes.png" width="900" height="473" loading="lazy"
+             alt="爪の形の比較図。左からラウンド(先が半円で丸い)、オーバル(先に向かってすぼまる卵形)、スクエアオフ(先が四角で角だけ丸い)">
+        <div class="shape-tags">
+          <span class="best">バレにくさ◎<br>おすすめ</span>
+          <span>上品な印象</span>
+          <span>丈夫だが<br>目立ちやすい</span>
         </div>
-        <div class="shape-card">
-          <svg width="52" height="78" viewBox="0 0 80 120" fill="none">
-            <path d="M20 118 C10 85 10 50 20 28" stroke="#5C333A" stroke-width="3" stroke-linecap="round"/>
-            <path d="M60 118 C70 85 70 50 60 28" stroke="#5C333A" stroke-width="3" stroke-linecap="round"/>
-            <path d="M20 72 Q40 82 60 72" stroke="#5C333A" stroke-width="3" stroke-linecap="round"/>
-            <path d="M20 72 C17 30 30 6 40 6 C50 6 63 30 60 72" stroke="#5C333A" stroke-width="3"/>
-          </svg>
-          <div class="name">オーバル</div>
-          <div class="tag">上品な印象</div>
-        </div>
-        <div class="shape-card">
-          <svg width="52" height="78" viewBox="0 0 80 120" fill="none">
-            <path d="M20 118 C10 85 10 50 20 28" stroke="#5C333A" stroke-width="3" stroke-linecap="round"/>
-            <path d="M60 118 C70 85 70 50 60 28" stroke="#5C333A" stroke-width="3" stroke-linecap="round"/>
-            <path d="M20 72 Q40 82 60 72" stroke="#5C333A" stroke-width="3" stroke-linecap="round"/>
-            <path d="M20 72 L20 30 Q20 16 34 16 L46 16 Q60 16 60 30 L60 72" stroke="#5C333A" stroke-width="3"/>
-          </svg>
-          <div class="name">スクエアオフ</div>
-          <div class="tag">丈夫だが目立ちやすい</div>
-        </div>
+      </figure>
+
+      <div class="sub">
+        <p><strong>ラウンドとオーバルの見分け方</strong></p>
+        <p>ラウンドは、先が半円のように丸く、横幅が根元から先までほぼ同じです。オーバルは、先に向かって少しずつ細くなる、卵のような形です。</p>
       </div>
       <p style="font-size:11.5px;color:var(--rose-600);margin-top:10px;">※「バレたくない」を優先するなら、爪先が丸く自然な印象になる<strong>ラウンド</strong>が一番おすすめです。</p>
 
@@ -368,6 +376,7 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
       <span class="step-badge">STEP 3</span>
       <h3>ピールオフジェルでベース作り</h3>
       <p>爪をプレプライマーで消毒・油分除去してから始めます。</p>
+      <p class="inline-cta">この手順のピールオフベース＆カラージェルは、<a href="https://hb.afl.rakuten.co.jp/ichiba/3206a917.0bc0de04.3206a918.3fe2a07f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnailkoubou%2Fshinygelmio-set%2F&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" onclick="gtag('event','cta_step3_set')">こちらのセット</a>で用意できます →</p>
 
       <div class="sub">
         <p><strong>① ピールベース</strong>を圧力をかけずに優しく塗る(爪の厚みの部分には塗らない)。10秒ほど待ち、表面がぷるんとしたらライトで60秒硬化。</p>
@@ -401,6 +410,24 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
       <span class="step-badge">STEP 4</span>
       <h3>保湿ケア</h3>
       <p>爪のまわりをネイルオイルでケアして完成。指先の乾燥は浮きや欠けの原因にもなるので、仕上げの一手間を忘れずに。</p>
+    </div>
+
+    <div class="cta-box" id="set">
+      <p class="eyebrow">やり方がわかったら</p>
+      <h3>早速、始めてみよう！</h3>
+      <p class="lead">必要な道具は、まずこの2つから。<br>おすすめセットはこちらです。</p>
+
+      <a class="cta-btn" href="https://hb.afl.rakuten.co.jp/ichiba/3206a917.0bc0de04.3206a918.3fe2a07f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnailkoubou%2Fshinygelmio-set%2F&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" onclick="gtag('event','cta_end_set')">
+        <span class="t">ピールオフベース＆カラージェルセット</span>
+        <span class="p">2,400円〜 送料無料</span>
+        <span class="go">おすすめセットを楽天で見る →</span>
+      </a>
+      <a class="cta-btn sub" href="https://hb.afl.rakuten.co.jp/ichiba/17c473de.a80b972c.17c473df.cc380b23/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftorreya-shop%2F100000013%2F&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" onclick="gtag('event','cta_end_light')">
+        <span class="t">LED/UVネイルライト</span>
+        <span class="p">2,999円 送料無料</span>
+        <span class="go">楽天で見る →</span>
+      </a>
+      <p class="cta-note">※価格は掲載時点のものです。最新の価格・在庫は楽天のページでご確認ください。</p>
     </div>
   </section>
 
@@ -481,7 +508,7 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
     </div>
   </section>
 
-  <footer class="site">&copy; ネイルピタ</footer>
+  <footer class="site">※当サイトは楽天アフィリエイトを利用しており、商品リンクには広告(PR)が含まれます。<br>&copy; ネイルピタ</footer>
 </div>
 
 <script>
