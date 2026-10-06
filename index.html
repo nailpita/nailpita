@@ -144,6 +144,10 @@ section{margin-top:52px;}
 .shape-tags span.best{outline:2px solid var(--rose-600); outline-offset:-2px; font-weight:700; color:var(--rose-800);}
 .inline-cta a{font-weight:700; text-decoration:underline;}
 
+/* STEP 4 の前に入れる「仕上がりチェック」の画像 */
+.check-fig{margin:16px 0 0; border:1px solid var(--rose-100); border-radius:18px; overflow:hidden; background:#fff;}
+.check-fig img{display:block; width:100%; height:auto;}
+
 .cta-box{
   margin-top:28px; background:#fff; border:2px solid var(--rose-600); border-radius:20px;
   padding:26px 20px; text-align:center;
@@ -201,6 +205,20 @@ section{margin-top:52px;}
 .closing p{font-size:12.5px; color:var(--rose-100); margin-top:10px;}
 .closing .btn.primary{margin-top:18px; background:#fff; color:var(--rose-900);}
 .closing .btnrow2{margin-top:12px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;}
+
+/* ココナラ(プロへの相談)のカード */
+.consult-card{
+  background:#fff; border:1px solid var(--rose-100); border-radius:20px;
+  padding:26px 20px; text-align:center;
+}
+.consult-card h2{font-size:18px; line-height:1.6; color:var(--rose-900);}
+.consult-card .lead{font-size:12.5px; color:var(--muted); margin:10px 0 0;}
+.consult-facts{display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:18px 0 0;}
+.consult-facts div{background:var(--rose-50); border-radius:12px; padding:10px 4px;}
+.consult-facts dt{font-size:10.5px; color:var(--rose-600); margin:0;}
+.consult-facts dd{font-size:13.5px; font-weight:700; color:var(--rose-900); margin:2px 0 0;}
+.consult-card .btn{margin-top:18px;}
+.consult-note{font-size:10.5px; line-height:1.7; color:var(--muted); margin:14px 0 0; text-align:left;}
 
 footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40px;}
 </style>
@@ -406,6 +424,12 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
       </div>
     </div>
 
+    <!-- STEP 3 と STEP 4 のあいだ:仕上がりのチェックポイント画像 -->
+    <figure class="check-fig">
+      <img src="./check-points.jpg" width="900" height="945" loading="lazy"
+           alt="仕上がりのチェックポイント。ジェルは皮膚についていないか、表面はなめらかか、爪の厚みにジェルがついていないかを確認しましょう。">
+    </figure>
+
     <div class="step">
       <span class="step-badge">STEP 4</span>
       <h3>保湿ケア</h3>
@@ -505,6 +529,21 @@ footer.site{text-align:center; font-size:11px; color:var(--muted); margin-top:40
     <a class="btn primary" href="#tools">道具を見る</a>
     <div class="btnrow2">
       <a class="btn ghost-dark" href="https://nailpita.github.io/nail-care/">その他の爪・指先のお悩みを見てみる →</a>
+    </div>
+  </section>
+
+  <!-- ココナラ:プロ(けい)に写真で相談 -->
+  <section class="consult" id="consult">
+    <div class="consult-card">
+      <h2>仕上がりが不安なときは、<br>ネイリスト歴15年のけいに<br>写真で相談できます</h2>
+      <p class="lead">セルフジェルの仕上がりや塗り方、爪のお悩みを、送っていただいた写真を見て、文章でアドバイスします。</p>
+      <dl class="consult-facts">
+        <div><dt>送る写真</dt><dd>2〜4枚</dd></div>
+        <div><dt>お届け</dt><dd>7日(予定)</dd></div>
+        <div><dt>料金</dt><dd>1,500円</dd></div>
+      </dl>
+      <a class="btn primary" href="https://coconala.com/services/4412076" target="_blank" rel="noopener" onclick="gtag('event','cta_consult')">ココナラで相談する</a>
+      <p class="consult-note">※ココナラ(外部サイト)での有料サービスです。料金・受付状況はココナラのページでご確認ください。<br>※ネイルケアのアドバイスで、医療行為・診断・治療ではありません。痛み・腫れ・出血などがあるときは、医療機関へご相談ください。</p>
     </div>
   </section>
 
