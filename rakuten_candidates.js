@@ -116,6 +116,11 @@ async function main() {
   }
 
   const fetched = all.size;
+// --- 確認用ログ(原因が分かったら消してOK) ---
+const sample = [...all.values()];
+if (sample[0]) console.log('項目名一覧:', Object.keys(sample[0]).join(', '));
+sample.slice(0, 5).forEach((it, i) => console.log(`確認${i + 1}: 評価=${it.reviewAverage} 件数=${it.reviewCount} 名前=${String(it.itemName).slice(0, 30)}`));
+
   const step1 = [...all.values()].filter(
     (it) => Number(it.reviewAverage) >= MIN_RATING && Number(it.reviewCount) >= MIN_REVIEWS
   );
