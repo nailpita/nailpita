@@ -1,0 +1,24 @@
+name: 候補商品を探す
+
+on:
+  workflow_dispatch: {}
+  # ↑ 手動でボタンを押したときだけ動きます(自動実行はしません)
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Node.jsをセットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 楽天で候補商品を探す
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+        run: node rakuten_candidates.js
