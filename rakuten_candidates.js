@@ -15,8 +15,8 @@ const KEYWORDS = [
   'ジェルポリッシュ ピンクベージュ',
   'ジェルポリッシュ ミルキー',
 ];
-const MIN_RATING = 4.5;      // 評価の最低ライン
-const MIN_REVIEWS = 100;     // レビュー件数の最低ライン
+const MIN_RATING = 4.0;      // 評価の最低ライン
+const MIN_REVIEWS = 30;     // レビュー件数の最低ライン
 const MAX_COLORS = 20;       // 「全○色」の○がこの数以上のセットは除外
 const PAGES_PER_KEYWORD = 2; // 1キーワードあたり何ページ調べるか(1ページ30件)
 const SHOW_TOP = 15;         // 一覧に表示する件数
@@ -116,12 +116,8 @@ async function main() {
   }
 
   const fetched = all.size;
-// --- 確認用ログ(原因が分かったら消してOK) ---
-const sample = [...all.values()];
-if (sample[0]) console.log('項目名一覧:', Object.keys(sample[0]).join(', '));
-sample.slice(0, 5).forEach((it, i) => console.log(`確認${i + 1}: 評価=${it.reviewAverage} 件数=${it.reviewCount} 名前=${String(it.itemName).slice(0, 30)}`));
 
-  const step1 = [...all.values()].filter(
+const step1 = [...all.values()].filter(
     (it) => Number(it.reviewAverage) >= MIN_RATING && Number(it.reviewCount) >= MIN_REVIEWS
   );
   const step2 = step1.filter((it) => !NG_WORDS.some((w) => it.itemName.includes(w)));
