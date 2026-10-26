@@ -27,8 +27,28 @@ const NG_WORDS = [
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// rakuten_sync.js と同じ送信設定(新API仕様: Origin/Referer とアクセスキーをヘッダーで送る)
+const https = require('https');
+const SITE_ORIGIN = process.env.RAKUTEN_SITE_ORIGIN || 'https://nailpita.github.io';
+const HEADERS = {
+  'User-Agent': 'nailpita/1.0',
+  Origin: SITE_ORIGIN,
+  Referer: SITE_ORIGIN,
+  accessKey: ACCESS_KEY,
+};
+function httpGet(url) {
+  return new Promise((resolve, reject) => {
+    https.get(url, { headers: HEADERS }, (res) => {
+      let body = '';
+      res.setEncoding('utf8');
+      res.on('data', (c) => (body += c));
+      res.on('end', () => resolve({ status: res.statusCode, text: body }));
+    }).on('error', reject);
+  });
+}
+
 async function fetchPage(keyword, page) {
-  const url = new URL('https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20220601');
+  const url = new URL('https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701');
   url.searchParams.set('applicationId', APP_ID);
   url.searchParams.set('accessKey', ACCESS_KEY);
   url.searchParams.set('affiliateId', AFFILIATE_ID);
@@ -40,20 +60,20 @@ async function fetchPage(keyword, page) {
   url.searchParams.set('format', 'json');
 
   for (let attempt = 1; attempt <= 2; attempt++) {
-    const res = await fetch(url.toString());
-    if (res.status === 429 && attempt === 1) {
-      console.log('アクセス集中のため少し待って再試行します');
-      await sleep(3000);
-      continue;
-    }
-    if (!res.ok) {
-      throw new Error(`楽天API呼び出し失敗: ${res.status} ${await res.text()}`);
-    }
-    const data = await res.json();
-    if (data.errors) {
-      throw new Error(`楽天APIエラー: ${JSON.stringify(data.errors)}`);
-    }
-    return (data.Items || []).map(({ Item }) => Item);
+    const res = await httpGet(url.toString());
+if (res.status === 429 && attempt === 1) {
+console.log('アクセス集中のため少し待って再試行します');
+await sleep(3000);
+continue;
+}
+if (res.status < 200 || res.status >= 300) {
+throw new Error(`楽天API呼び出し失敗: ${res.status} ${res.text.slice(0, 300)}`);
+}
+const data = JSON.parse(res.text);
+if (data.errors) {
+throw new Error(`楽天APIエラー: ${JSON.stringify(data.errors)}`);
+}
+return (data.Items || []).map(({ Item }) => Item);
   }
   return [];
 }
