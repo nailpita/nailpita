@@ -29,7 +29,11 @@ const SEARCH_KEYWORDS = [
 ];
 
 // --- ① 楽天商品検索APIから商品を取得(新エンドポイント+アクセスキー対応) ---
-async function fetchRakutenProducts(keyword, page = 1) {
+// 楽天APIが一時的に不調(503など)のときは、少し待って再試行します
+const RETRY_WAITS = [3000, 8000, 15000];
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function fetchRakutenProducts(keyword, page = 1, attempt = 0) {
   const url = new URL('https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701');
   url.searchParams.set('applicationId', APP_ID);
   url.searchParams.set('accessKey', ACCESS_KEY);
@@ -40,17 +44,35 @@ async function fetchRakutenProducts(keyword, page = 1) {
   url.searchParams.set('sort', '-updateTimestamp');
   url.searchParams.set('format', 'json');
 
-  const { statusCode, body } = await undiciRequest(url.toString(), {
-    method: 'GET',
-    headers: {
-      'User-Agent': 'nailpita/1.0',
-      Origin: SITE_ORIGIN,
-      Referer: SITE_ORIGIN,
-      accessKey: ACCESS_KEY,
-    },
-  });
+  let statusCode, rawText;
+  try {
+    const res = await undiciRequest(url.toString(), {
+      method: 'GET',
+      headers: {
+        'User-Agent': 'nailpita/1.0',
+        Origin: SITE_ORIGIN,
+        Referer: SITE_ORIGIN,
+        accessKey: ACCESS_KEY,
+      },
+    });
+    statusCode = res.statusCode;
+    rawText = await res.body.text();
+  } catch (err) {
+    // 通信自体が失敗した(タイムアウトなど)
+    if (attempt < RETRY_WAITS.length) {
+      console.log(`  通信エラー(${err.message})。${RETRY_WAITS[attempt] / 1000}秒待って再試行します`);
+      await sleep(RETRY_WAITS[attempt]);
+      return fetchRakutenProducts(keyword, page, attempt + 1);
+    }
+    throw err;
+  }
 
-  const rawText = await body.text();
+  // 429(アクセス集中)と5xx(楽天側の一時的な不調)は再試行する
+  if ((statusCode === 429 || statusCode >= 500) && attempt < RETRY_WAITS.length) {
+    console.log(`  楽天APIが一時的に応答できません(HTTP ${statusCode})。${RETRY_WAITS[attempt] / 1000}秒待って再試行します`);
+    await sleep(RETRY_WAITS[attempt]);
+    return fetchRakutenProducts(keyword, page, attempt + 1);
+  }
 
   let data;
   try {
@@ -120,12 +142,15 @@ async function runBatch() {
   }
 
   const existing = loadExistingProducts();
+  let okCount = 0;
+  let errorCount = 0;
   const productMap = new Map(existing.map((p) => [p.productId, p]));
 
   for (const { keyword, category } of SEARCH_KEYWORDS) {
     console.log(`--- 「${keyword}」を検索中 ---`);
     try {
       const items = await fetchRakutenProducts(keyword);
+      okCount++;
       for (const item of items) {
         try {
           const hexColor = item.imageUrl ? await extractDominantColor(item.imageUrl) : null;
@@ -141,8 +166,20 @@ async function runBatch() {
       }
     } catch (err) {
       console.error(`「${keyword}」の検索でエラー:`, err.message);
-      process.exitCode = 1;
+      errorCount++;
     }
+    await sleep(1000);
+  }
+
+  if (okCount === 0) {
+    // すべてのキーワードが失敗(APIキーの期限切れなど)。products.json は書き換えずに失敗として通知する
+    console.error('::error::楽天APIから1件も取得できませんでした。APIキーや楽天側の状況を確認してください');
+    process.exitCode = 1;
+    return;
+  }
+  if (errorCount > 0) {
+    // 一部だけ取れなかった場合は警告のみ(取れなかったキーワードの商品は前回のデータが残ります)
+    console.log(`::warning::${errorCount}件のキーワードが取得できなかったため、その分は前回の商品データを残しました`);
   }
 
   const merged = Array.from(productMap.values());
